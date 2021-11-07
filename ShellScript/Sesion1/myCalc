@@ -1,0 +1,13 @@
+# Write a Shell script named myCalc that:
+# 1. Reads a pair of integers from keyboard, adds them
+# and stores the result in a variable named iter
+# 2. Reads a new integer from keyboard, multiply it by
+# inter and show the result in the screen
+
+echo -n "Por favor introduce dos números enteros: "
+read intUno intDos
+inter=`expr $intUno + $intDos`
+
+echo -n "Introduzca un tercer número entero: "
+read intTres
+echo "El resultado de la operación ($intUno + $intDos) * $intTres es:" `expr $inter \* $intTres`
