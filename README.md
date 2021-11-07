@@ -12,3 +12,6 @@
 ### Examen de prueba resuelto
 Incluye cosas de las 3 primeras sesiones
 - [Examen de prueba](https://github.com/rodmarkun/OS-Exercises/blob/master/Llamadas%20al%20sistema/Ejemplo%20Examen/duo.c)
+## Shell Script
+### Sesion 1
+- [Ejercicio 1](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion1/myCalc)
