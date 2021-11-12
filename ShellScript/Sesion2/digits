@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Write a script called digits to print the sum of all the digits of a number
+# given as a parameter. For instance, if the number is 123, the sum of all
+# digits will be 1+2+3=6
+
+num=$1
+suma=0
+while [ $num -ne 0 ]; do
+    add=`expr $num % 10`
+    suma=`expr $suma + $add`
+    num=`expr $num / 10`
+done
+echo $suma

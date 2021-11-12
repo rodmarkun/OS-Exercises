@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Write a Shell script named myCalc that:
 # 1. Reads a pair of integers from keyboard, adds them
 # and stores the result in a variable named iter

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#Output:
+#*
+#**
+#***
+#****
+#*****
+
+for (( i=1; i<=5; i++ )); do
+    for (( j=1; j<=i; j++ )); do
+        echo -n "*" # -n for writing in the same line
+    done
+    echo "" # empty echo for new line
+done
