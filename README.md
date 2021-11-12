@@ -15,3 +15,8 @@ Incluye cosas de las 3 primeras sesiones
 ## Shell Script
 ### Sesion 1
 - [Ejercicio 1](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion1/myCalc)
+### Sesion 2
+- [Ejercicio 1](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion2/digits)
+- [Ejercicio Extra 1](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion2/bucleForUno)
+- [Ejercicio Extra 2](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion2/bucleForDos)
+- [Ejercicio Extra 3](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion2/bucleForTres)
