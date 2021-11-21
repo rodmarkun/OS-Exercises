@@ -20,3 +20,7 @@ Incluye cosas de las 3 primeras sesiones
 - [Ejercicio Extra 1](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion2/bucleForUno)
 - [Ejercicio Extra 2](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion2/bucleForDos)
 - [Ejercicio Extra 3](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion2/bucleForTres)
+### Sesion 3
+- [Ejercicio 1](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion3/ex1/frag)
+- [Ejercicio 2](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion3/ex2/theBiggest)
+- [Ejercicio Extra 1](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion3/hex1/photos)
