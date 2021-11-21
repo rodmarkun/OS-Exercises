@@ -1,0 +1,23 @@
+#!/bin/bash
+# Write a script named theBigest that:
+# Creates a file of a single line of 8 random integers of name myRandoms. Use the 
+# function $RANDOM to generate each integer.  
+# Next, read the whole file in a variable using input redirection. 
+# Finally, use a for loop through to the variable to determine the greatest component.
+# $ ./theBigest 
+# 835
+
+rm -rf ./myRandoms
+for i in {1..8}
+do
+    echo -n $RANDOM >> myRandoms " "
+done
+read myRandomsVar < myRandoms
+echo $myRandomsVar
+
+max=0
+for i in $myRandomsVar
+do
+    if (( $i > $max )); then max=$i; fi;
+done
+echo $max

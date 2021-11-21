@@ -1,0 +1,13 @@
+#!/bin/bash
+# Write a script named photos that creates a file, whose name is given as first parameter. 
+# The content of such file will be the names of the files under a directory given as second parameter. 
+# The file will have a file name per line:
+# $ photos  myPhotos  /usr/photo/Summer17
+# $ cat myPhotos 
+# Img0001
+# Img0002
+# Img0003
+# Img0004
+# Img0005
+
+ls $2 > $1
