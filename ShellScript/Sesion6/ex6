@@ -1,0 +1,8 @@
+#!/bin/bash
+
+pack(){
+    p=$1
+    shift
+    cat $* > $p
+}
+pack uwu *

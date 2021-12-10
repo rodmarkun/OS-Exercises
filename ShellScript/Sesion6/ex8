@@ -1,0 +1,22 @@
+#!/bin/bash
+
+pack(){
+    if [ -e $1 ]
+    then
+        return 1
+    fi
+    p=$1
+    shift
+    cat $* > $p
+    return 0
+}
+
+pack uwu *
+
+if [ $? -ne 0 ]
+then
+    echo "File already exists"
+    exit 1
+else
+    echo "File created!"
+fi

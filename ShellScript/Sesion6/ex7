@@ -1,0 +1,17 @@
+#!/bin/bash
+
+pack(){
+    p=$1
+    shift
+    cat $* > $p
+}
+
+if [ -e $1 ]
+then
+    echo "File already exists"
+    exit 1
+else
+
+fi
+
+pack uwu *

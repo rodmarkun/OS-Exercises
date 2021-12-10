@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in {0..3}
+do
+    numero=`expr $i \* 2`
+    echo numero > pair$numero
+done

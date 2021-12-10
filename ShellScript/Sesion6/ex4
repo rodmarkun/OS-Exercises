@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ $# -ne 2 ]
+then
+    echo `basename $0`: I need two parameters 1>&2
+fi
+
+if [ $1 = $2 ] 
+then 
+    echo "Son iguales" 
+else 
+    echo "No son iguales" 
+fi

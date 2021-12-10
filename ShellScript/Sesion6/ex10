@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo -n "Please enter a number: "
+read number
+
+for i in {0..$number}
+do
+    echo `expr $i \* 2`
+done
