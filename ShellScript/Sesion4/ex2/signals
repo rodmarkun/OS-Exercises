@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Write a shell script that waits for three Cntl+C signals and then finish
+
+trap signal SIGINT
+
+function signal()
+{
+    echo "Señal recibida"
+}
+
+for i in {0..2}
+do
+    sleep 1000
+done

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Write a shell script that lists the files in the directory given the by first parameter 
+# with extension given by the second parameter. To do that, the script must call a function
+# that takes these same two parameters
+
+function check_extensions()
+{
+    ls $1 | grep .$2
+}
+
+check_extensions $1 $2

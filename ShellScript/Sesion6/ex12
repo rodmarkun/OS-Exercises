@@ -1,1 +1,11 @@
 #!/bin/bash
+
+contador=0
+
+for i in {0..3}
+do
+    numero=`expr $i \* 2`
+    echo numero > pair$numero
+    caracteres=`wc -m pair$numero`
+    contador=`expr $contador + $caracteres`
+done

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Write a shell script to find out the largest value from given command line arguments,
+# both using shift and not using it
+
+largest=$1
+
+for i in $@
+do
+    if [ $i -gt $largest ]
+    then
+        largest=$i
+    fi
+done
+
+echo "The largest number is" $largest

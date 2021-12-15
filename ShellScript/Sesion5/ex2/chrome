@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Write a shell script which finds all the files in the file system whose name
+# includes the pattern chrome and have a size of less than 1 MB. The script writes
+# in standard output the number of found files.
+
+find / -size +2000 | grep chrome | wc -l
