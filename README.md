@@ -24,3 +24,10 @@ Incluye cosas de las 3 primeras sesiones
 - [Ejercicio 1](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion3/ex1/frag)
 - [Ejercicio 2](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion3/ex2/theBiggest)
 - [Ejercicio Extra 1](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion3/hex1/photos)
+### Sesion 4
+- [Ejercicio 1](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion4/ex1/extensions)
+- [Ejercicio 2](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion4/ex2/signals)
+### Sesion 5
+- [Ejercicio 1 (Con Shift)](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion5/ex1/largest_with_shift)
+- [Ejercicio 1 (Sin Shift)](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion5/ex1/largest_without_shift)
+- [Ejercicio 2](https://github.com/rodmarkun/OS-Exercises/blob/master/ShellScript/Sesion5/ex2/chrome)
